@@ -17,9 +17,15 @@
             "homepage": "http://eli-white.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/jamesiarmes/PHPoAuthLib.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
-        "lusitanian/oauth": "~0.2"
+        "lusitanian/oauth": "dev-google-fit"
     },
     "autoload": {
         "psr-0": {
